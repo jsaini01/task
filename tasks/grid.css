@@ -1,0 +1,115 @@
+.outer {
+  border: solid black;
+  display: grid;
+  grid-template-areas:
+    "header header header header header header"
+    "menu main main main right right"
+    "menu footer footer footer footer footer";
+  gap: 2vw;
+  padding: 1vw;
+  background-color: rgb(157, 106, 205);
+}
+
+.item1 {
+  background-color: aqua;
+  grid-area: header;
+  padding: 2vw;
+  border: solid black;
+  text-align: center;
+}
+
+.item2 {
+  background-color: brown;
+  grid-area: menu;
+  padding: 2vw;
+  border: solid black;
+  text-align: center;
+}
+
+.item3 {
+  background-color: aquamarine;
+  grid-area: main;
+  padding: 2vw;
+  border: solid black;
+  text-align: center;
+}
+
+.item4 {
+  background-color: blue;
+  grid-area: right;
+  padding: 2vw;
+  border: solid black;
+  text-align: center;
+}
+
+.item5 {
+  background-color: bisque;
+  grid-area: footer;
+  padding: 2vw;
+  border: solid black;
+  text-align: center;
+}
+
+.second {
+  background-color: rgb(157, 106, 205);
+  padding: 1.5vw;
+  margin-top: 2vw;
+  height: auto;
+  border: solid black;
+}
+
+.header {
+  display: block;
+  background-color: aqua;
+  border: solid black;
+  padding: 1vw;
+  height: 3vw;
+  text-align: center;
+}
+
+.middle {
+  background-color: rgb(157, 106, 205);
+  display: flex;
+  width: 95.6vw;
+}
+.menu {
+  background-color: brown;
+  border: solid black;
+  padding: 1vw;
+  height: 10vw;
+  width: 16vw;
+  margin-top: 2vw;
+  text-align: center;
+}
+
+.main {
+  background-color: aquamarine;
+  border: solid black;
+  padding: 1.5vw;
+  height: 2vw;
+  margin: 2vw 1.6vw;
+  width: 40vw;
+  text-align: center;
+}
+
+.right {
+  background-color: blue;
+  border: solid black;
+  padding: 1.5vw;
+  height: 2vw;
+  margin-top: 2vw;
+  width: 26.5vw;
+  text-align: center;
+}
+
+.footer {
+  position: absolute;
+  background-color: bisque;
+  border: solid black;
+  padding: 1.5vw;
+  height: 1.6vw;
+  left: 22.4vw;
+  top: 85.8vh;
+  width: 71vw;
+  text-align: center;
+}

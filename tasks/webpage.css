@@ -1,0 +1,52 @@
+
+.all{
+    padding-top: 0.2vw;
+    padding-left: 1vw;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.head{
+
+    border: 1px solid black;
+    width: 85vw;
+    margin-left: 5vw;
+    display: block;
+    padding: 0.5vw;
+    
+}
+
+.title{
+
+    border: 1px solid black;
+    width: 70vw;
+    margin-left: 6.5vw;
+    padding: 0.5vw;
+    text-align: center;
+    
+
+
+}
+
+.body{
+    border: 1px solid black;
+    width: 85vw;
+    margin-left: 5vw;
+    display: block;
+    margin-top: 2vw;
+    height: 27vw;
+    padding: 0.5vw;
+}
+
+.body1{
+
+    border: 1px solid black;
+    width: 70vw;
+    height: 14vw;
+    margin-left: 6.5vw;
+    padding-top: 6vw;
+    text-align: center;
+
+
+}
+

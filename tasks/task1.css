@@ -1,0 +1,58 @@
+
+
+.body{
+    background-color: #6e8734;
+    
+}
+.div {
+    
+    background-color: #ccfb5d;
+    align-items: center;
+    border: 1px solid red;
+    width: 50vw;
+    text-align: center;
+    
+    margin-left: 22vw;
+    padding: 0.2vw;
+
+
+}
+
+.h1 {
+
+    color: red;
+    line-height: 0vw;
+
+
+}
+
+.h2 {
+
+    color: red;
+    line-height: 1vw;
+
+}
+
+
+
+.box{
+
+    line-height: 3vw;
+}
+
+label{
+    font-weight: bold;
+}
+
+#btn{
+    width: 10vw;
+    height: 2vw;
+    font-weight: bold;
+    background-color: rgb(243, 115, 69);
+   color: white;
+    border-radius: 10px;
+    font-family:Arial Rounded MT Bold;
+    font-size: 1.2vw;
+    border: 2px solid white;
+}
+

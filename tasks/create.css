@@ -1,0 +1,192 @@
+.body {
+  background-color: #f6f7f8;
+  height: 45vw;
+  opacity: 0.3;
+}
+
+.pop {
+  left: 35vw;
+  width: 28vw;
+  height: 32vw;
+  position: absolute;
+  top: 7.5vw;
+  background-color: white;
+  padding-top: 0vw;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px 5px rgb(216, 213, 213);
+}
+
+.hh {
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  line-height: 0.1vw;
+  margin-left: 1vw;
+}
+
+img {
+  height: 4vh;
+  position: absolute;
+  right: 0.6vw;
+  top: 0.5vh;
+  opacity: 0.6;
+}
+
+.pp {
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  margin-left: 1vw;
+  opacity: 0.7;
+}
+
+#text1 {
+  margin-top: 0.2vw;
+  padding: 0.6vw;
+  width: 11.3vw;
+  border-radius: 6px;
+  background-color: rgb(245, 243, 243);
+  margin-left: 0.9vw;
+  font-size: 1vw;
+  opacity: 0.7;
+  border: 0.5px solid lightgrey;
+  -webkit-appearance: none;
+}
+
+#text2 {
+  padding: 0.6vw;
+  width: 11.3vw;
+  border-radius: 6px;
+  background-color: rgb(245, 243, 243);
+  margin-left: 0.9vw;
+  font-size: 1vw;
+  opacity: 0.7;
+  border: 0.5px solid lightgrey;
+}
+
+#tel1 {
+  padding: 0.6vw;
+  width: 25vw;
+  border-radius: 6px;
+  background-color: rgb(245, 243, 243);
+  margin-left: 0.8vw;
+  font-size: 1vw;
+  opacity: 0.7;
+  margin-top: 1vw;
+  border: 0.5px solid lightgrey;
+}
+
+#pass {
+  padding: 0.6vw;
+  width: 25vw;
+  border-radius: 6px;
+  background-color: rgb(245, 243, 243);
+  margin-left: 0.8vw;
+  font-size: 1vw;
+  opacity: 0.7;
+  margin-top: 1vw;
+  border: 0.5px solid lightgrey;
+}
+
+.date {
+  margin-top: 1vw;
+  margin-left: 0.7vw;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  opacity: 0.7;
+  font-size: 0.9vw;
+}
+
+.option {
+  margin-top: -0.3vw;
+  margin-left: 0.7vw;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+.select {
+  margin-top: 0.5vw;
+  width: 8.5vw;
+  padding: 0.5vw;
+  margin-left: 0.1vw;
+  border: 0.5px solid lightgrey;
+  overflow-y: scroll;
+  border-radius: 6px;
+}
+
+.select1 {
+  margin-top: 0.5vw;
+  width: 8.5vw;
+  padding: 0.5vw;
+  margin-left: 0.1vw;
+  border: 0.5px solid lightgrey;
+  overflow-y: scroll;
+  border-radius: 6px;
+}
+
+.select2 {
+  margin-top: 0.5vw;
+  width: 8.5vw;
+  padding: 0.5vw;
+  margin-left: 0.1vw;
+  border: 0.5px solid lightgrey;
+  border-radius: 6px;
+}
+
+.gender {
+  margin-top: 0.5vw;
+  margin-left: 1vw;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  opacity: 0.7;
+  font-size: 0.9vw;
+}
+
+.radio {
+  display: flex;
+  margin-top: 0vw;
+
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+#female {
+  margin-top: 0.3vw;
+  margin-left: 1vw;
+  width: 7.2vw;
+  padding: 0.4vw;
+  background-color: white;
+  border: 0.5px solid lightgrey;
+  border-radius: 6px;
+}
+
+#radio1 {
+  float: right;
+}
+
+#footerp {
+  font-size: 0.8vw;
+  margin-left: 1vw;
+  margin-top: -0.5px;
+  opacity: 0.7;
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+.af {
+  text-decoration: none;
+
+  color: rgb(61, 61, 215);
+}
+.af:hover {
+  text-decoration: underline;
+}
+
+#button1 {
+  background-color: rgb(32, 172, 32);
+  margin-left: 8vw;
+  padding: 0.5vw;
+  font-weight: bold;
+  color: white;
+  width: 12vw;
+  border: none;
+  border-radius: 7px;
+  font-size: 1.2vw;
+  margin-top: 1.5vh;
+}
+
+#button1:hover {
+  background-color: rgb(15, 82, 15);
+  opacity: 0.7;
+}
